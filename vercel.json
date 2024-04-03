@@ -4,7 +4,10 @@
     {
       "src": "app.py",
       "use": "@vercel/python",
-      "config": { "maxLambdaMemory": "1024MB" }
+      "config": {
+        "maxLambdaMemory": "1024MB",
+        "pythonVersion": "3.9"
+      }
     }
   ],
   "routes": [
